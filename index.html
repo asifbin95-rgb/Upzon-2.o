@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Upzon — Content Optimization Company | Grow Faster. Look Better.</title>
+  <meta name="description" content="Upzon helps creators and brands improve content performance through strategic optimization — retention, CTR and content optimization." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Ambient background -->
+  <div class="ambient" aria-hidden="true">
+    <div class="ambient__orb ambient__orb--blue"></div>
+    <div class="ambient__orb ambient__orb--purple"></div>
+    <div class="ambient__orb ambient__orb--cyan"></div>
+    <div class="ambient__grid"></div>
+  </div>
+
+  <!-- ═════════ NAV ═════════ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__logo" aria-label="Upzon home">
+        <span class="nav__logo-mark">UP</span>ZON
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#problems">Problems</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#framework">Framework</a>
+        <a href="#process">Process</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+      <a href="#contact" class="btn btn--primary btn--sm nav__cta">Discuss Your Project</a>
+      <button class="nav__burger" id="navBurger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ═════════ 1 · HERO ═════════ -->
+    <section class="hero" id="hero">
+      <!--
+        HERO MEDIA SLOT — future-ready background layer.
+        Drop an <img>, <video autoplay muted loop playsinline> or GIF <img> inside
+        .hero__media and it will render behind the content automatically.
+        Example:
+          <video src="media/hero.mp4" autoplay muted loop playsinline></video>
+      -->
+      <div class="hero__media" aria-hidden="true">
+        <!-- media placeholder — replace with image / gif / video -->
+      </div>
+      <div class="hero__scrim" aria-hidden="true"></div>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="hero__eyebrow reveal"><span class="dot dot--cyan"></span> Content Optimization Company</p>
+          <h1 class="hero__title">
+            <span class="hero__line">Good content doesn't</span>
+            <span class="hero__line">always get the attention</span>
+            <span class="hero__line hero__line--accent">it deserves.</span>
+          </h1>
+          <p class="hero__sub reveal">
+            Upzon helps creators and brands improve content performance through
+            strategic optimization — not random creative work. Every decision is
+            grounded in analysis, audience psychology and clear goals.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#contact" class="btn btn--primary">Discuss Your Project</a>
+            <a href="#solutions" class="btn btn--ghost">Explore Solutions <span class="btn__arrow">→</span></a>
+          </div>
+          <p class="hero__tagline reveal">Grow Faster. <span>Look Better.</span></p>
+        </div>
+
+        <aside class="hero__panel reveal" aria-hidden="true">
+          <div class="hero__chip glass">
+            <div class="hero__chip-icon hero__chip-icon--blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 17V9m5.5 8V5m5.5 12v-6M20.5 17V8" stroke-linecap="round"/></svg>
+            </div>
+            <div><strong>Content</strong><span>Performance first</span></div>
+          </div>
+          <div class="hero__chip glass">
+            <div class="hero__chip-icon hero__chip-icon--purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r="0.5" fill="currentColor"/></svg>
+            </div>
+            <div><strong>Optimization</strong><span>Strategy, not guesswork</span></div>
+          </div>
+          <div class="hero__chip glass">
+            <div class="hero__chip-icon hero__chip-icon--cyan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 18 10 12l3.5 3.5L20 9" stroke-linecap="round" stroke-linejoin="round"/><path d="M15.5 9H20v4.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div><strong>Growth</strong><span>Measured improvement</span></div>
+          </div>
+        </aside>
+      </div>
+
+      <div class="hero__meta container reveal">
+        <div><span>Focus</span><strong>Optimization</strong></div>
+        <div><span>Approach</span><strong>Data-Driven</strong></div>
+        <div><span>Strategy</span><strong>Creator Workflow</strong></div>
+        <div><span>Outcome</span><strong>Better Performance</strong></div>
+      </div>
+    </section>
+
+    <!-- ═════════ 2 · PROBLEMS ═════════ -->
+    <section class="section" id="problems">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__eyebrow reveal">The Problems</p>
+          <h2 class="section__title reveal">Real problems.<br />Real impact.</h2>
+          <p class="section__sub reveal">These are the challenges creators face every day — and how strategic optimization addresses each one.</p>
+        </div>
+
+        <div class="grid grid--4 problems__grid">
+          <article class="card glass reveal">
+            <div class="card__icon card__icon--blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>People leave within the first 5 seconds</h3>
+            <p class="card__problem">Weak openings fail to earn attention before viewers scroll away.</p>
+            <div class="card__divider"></div>
+            <p class="card__solution"><span>Our approach</span>Retention-focused hook structure and pacing built around audience psychology.</p>
+          </article>
+
+          <article class="card glass reveal">
+            <div class="card__icon card__icon--purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3.5" y="5" width="17" height="14" rx="2.5"/><path d="m10 9.5 4.5 2.5L10 14.5v-5Z" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Great videos get low clicks</h3>
+            <p class="card__problem">Strong content stays invisible when the packaging doesn't invite a click.</p>
+            <div class="card__divider"></div>
+            <p class="card__solution"><span>Our approach</span>CTR-focused thumbnail and title strategy built on proven click psychology.</p>
+          </article>
+
+          <article class="card glass reveal">
+            <div class="card__icon card__icon--cyan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 17c2.5 0 2.5-2.5 5-2.5S11.5 17 14 17s2.5-2.5 5-2.5" stroke-linecap="round"/><path d="M4 11c2.5 0 2.5-2.5 5-2.5S11.5 11 14 11s2.5-2.5 5-2.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Inconsistent social media growth</h3>
+            <p class="card__problem">Random uploads create random results — momentum never compounds.</p>
+            <div class="card__divider"></div>
+            <p class="card__solution"><span>Our approach</span>Content optimization with a consistent publishing strategy across platforms.</p>
+          </article>
+
+          <article class="card glass reveal">
+            <div class="card__icon card__icon--blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5v17M3.5 12h17" stroke-linecap="round"/></svg>
+            </div>
+            <h3>No clear content direction</h3>
+            <p class="card__problem">Without a strategy, every upload is a gamble instead of a step forward.</p>
+            <div class="card__divider"></div>
+            <p class="card__solution"><span>Our approach</span>Channel and content analysis translated into a focused, actionable roadmap.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 3 · GROWTH SOLUTIONS ═════════ -->
+    <section class="section" id="solutions">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__eyebrow reveal">Our Solutions</p>
+          <h2 class="section__title reveal">Built for better performance</h2>
+          <p class="section__sub reveal">Strategic optimization that drives real results — focused on the three levers that matter most.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="card card--solution glass reveal">
+            <div class="card__icon card__icon--blue">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="8.5"/><path d="M12 3.5a8.5 8.5 0 0 1 8.5 8.5" stroke-linecap="round" opacity="0.4"/><path d="M12 8v4l2.5 1.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Retention Optimization</h3>
+            <p>Editing designed to increase viewer retention and keep audiences engaged through every second — structure, pacing, and payoff working together.</p>
+            <ul class="card__list">
+              <li>Hook &amp; opening structure</li>
+              <li>Pacing and cut rhythm</li>
+              <li>Pattern-interrupt planning</li>
+              <li>Watch-time analysis</li>
+            </ul>
+            <a href="#contact" class="card__link">Discuss this solution <span>→</span></a>
+          </article>
+
+          <article class="card card--solution glass reveal">
+            <div class="card__icon card__icon--purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4.5 4.5 11 19l1.8-5.7L18.5 11 4.5 4.5Z" stroke-linejoin="round"/><path d="m13 13 5.5 5.5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>CTR Optimization</h3>
+            <p>Thumbnail design and title strategy built around proven click psychology — so the right people click before the algorithm moves on.</p>
+            <ul class="card__list">
+              <li>Thumbnail concept &amp; design</li>
+              <li>Title framing strategy</li>
+              <li>Curiosity-gap positioning</li>
+              <li>Packaging consistency</li>
+            </ul>
+            <a href="#contact" class="card__link">Discuss this solution <span>→</span></a>
+          </article>
+
+          <article class="card card--solution glass reveal">
+            <div class="card__icon card__icon--cyan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M5 19V11m7 8V5m7 14v-5" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Content Optimization</h3>
+            <p>Improving the overall performance of your content across every platform — from format and structure to positioning and publishing cadence.</p>
+            <ul class="card__list">
+              <li>Content structure review</li>
+              <li>Platform-fit formatting</li>
+              <li>Publishing strategy</li>
+              <li>Performance review loop</li>
+            </ul>
+            <a href="#contact" class="card__link">Discuss this solution <span>→</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 4 · GROWTH FRAMEWORK ═════════ -->
+    <section class="section" id="framework">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__eyebrow reveal">Our Framework</p>
+          <h2 class="section__title reveal">A proven process for better results</h2>
+          <p class="section__sub reveal">The Upzon Growth Framework — five connected stages that turn analysis into measurable improvement.</p>
+        </div>
+
+        <div class="framework reveal-stagger">
+          <div class="framework__step glass">
+            <span class="framework__num">01</span>
+            <h3>Discover</h3>
+            <p>Understand your content, audience and goals.</p>
+          </div>
+          <div class="framework__connector" aria-hidden="true"></div>
+          <div class="framework__step glass">
+            <span class="framework__num">02</span>
+            <h3>Analyze</h3>
+            <p>Identify what's holding performance back.</p>
+          </div>
+          <div class="framework__connector" aria-hidden="true"></div>
+          <div class="framework__step glass">
+            <span class="framework__num">03</span>
+            <h3>Optimize</h3>
+            <p>Apply retention, CTR and content strategy.</p>
+          </div>
+          <div class="framework__connector" aria-hidden="true"></div>
+          <div class="framework__step glass">
+            <span class="framework__num">04</span>
+            <h3>Deliver</h3>
+            <p>Ship polished, publish-ready work on time.</p>
+          </div>
+          <div class="framework__connector" aria-hidden="true"></div>
+          <div class="framework__step glass">
+            <span class="framework__num">05</span>
+            <h3>Improve</h3>
+            <p>Track performance and refine continuously.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 5 · WORK PROCESS ═════════ -->
+    <section class="section" id="process">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__eyebrow reveal">Work Process</p>
+          <h2 class="section__title reveal">Clear steps. No surprises.</h2>
+          <p class="section__sub reveal">From first message to final delivery — here's exactly how a project moves through Upzon.</p>
+        </div>
+
+        <ol class="process">
+          <li class="process__item reveal">
+            <span class="process__num">1</span>
+            <div class="process__body">
+              <h3>Contact</h3>
+              <p>Send an inquiry with your channel, platform and main challenge. We reply with next steps.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">2</span>
+            <div class="process__body">
+              <h3>Consultation</h3>
+              <p>A focused conversation to understand your goals, audience and current performance.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">3</span>
+            <div class="process__body">
+              <h3>Strategy</h3>
+              <p>We define the optimization plan — what changes, why it changes, and what it should achieve.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">4</span>
+            <div class="process__body">
+              <h3>Execution</h3>
+              <p>The work gets done — editing, packaging, structuring — following the agreed strategy.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">5</span>
+            <div class="process__body">
+              <h3>Revision</h3>
+              <p>You review the work. We refine it within the agreed revision policy until it's right.</p>
+            </div>
+          </li>
+          <li class="process__item reveal">
+            <span class="process__num">6</span>
+            <div class="process__body">
+              <h3>Delivery</h3>
+              <p>Final files delivered on schedule, publish-ready, with clear handover notes.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ═════════ 6 · WHY UPZON ═════════ -->
+    <section class="section" id="why">
+      <div class="container">
+        <div class="why">
+          <div class="why__content">
+            <p class="section__eyebrow reveal">Why Upzon</p>
+            <h2 class="section__title reveal">Built on principles.<br />Driven by results.</h2>
+            <p class="section__sub reveal">We don't claim to be the best. We commit to working honestly, clearly, and with optimization at the core of every decision.</p>
+            <ul class="why__list reveal-stagger">
+              <li>
+                <span class="why__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12.5 4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <div><strong>Transparent Workflow</strong><p>You always know what stage your project is in and what happens next.</p></div>
+              </li>
+              <li>
+                <span class="why__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12.5 4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <div><strong>Honest Communication</strong><p>Realistic expectations, direct answers — no inflated promises.</p></div>
+              </li>
+              <li>
+                <span class="why__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12.5 4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <div><strong>Clear Timeline</strong><p>Every project starts with an agreed schedule — and we keep to it.</p></div>
+              </li>
+              <li>
+                <span class="why__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12.5 4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <div><strong>Revision Policy</strong><p>Defined revision rounds in every plan, so refinement is built in — not a negotiation.</p></div>
+              </li>
+              <li>
+                <span class="why__check" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m5 12.5 4.5 4.5L19 7.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </span>
+                <div><strong>Optimization First</strong><p>Every creative choice serves performance — strategy leads, style follows.</p></div>
+              </li>
+            </ul>
+          </div>
+
+          <figure class="why__visual glass reveal" aria-hidden="true">
+            <figcaption>Performance over time <span>illustrative</span></figcaption>
+            <svg class="why__chart" viewBox="0 0 400 220" preserveAspectRatio="xMidYMid meet">
+              <defs>
+                <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="0%" stop-color="rgba(94,159,255,0.28)"/>
+                  <stop offset="100%" stop-color="rgba(94,159,255,0)"/>
+                </linearGradient>
+                <linearGradient id="chartLine" x1="0" y1="0" x2="1" y2="0">
+                  <stop offset="0%" stop-color="#5E9FFF"/>
+                  <stop offset="55%" stop-color="#8B7CF6"/>
+                  <stop offset="100%" stop-color="#4FD8E8"/>
+                </linearGradient>
+              </defs>
+              <g class="why__gridlines">
+                <line x1="20" y1="50" x2="380" y2="50"/>
+                <line x1="20" y1="95" x2="380" y2="95"/>
+                <line x1="20" y1="140" x2="380" y2="140"/>
+                <line x1="20" y1="185" x2="380" y2="185"/>
+              </g>
+              <path class="why__area" d="M20 185 C70 175 90 160 130 150 C170 140 190 148 230 120 C270 92 300 88 340 60 L380 42 L380 185 Z" fill="url(#chartFill)"/>
+              <path class="why__line" d="M20 185 C70 175 90 160 130 150 C170 140 190 148 230 120 C270 92 300 88 340 60 L380 42" fill="none" stroke="url(#chartLine)" stroke-width="2.5" stroke-linecap="round"/>
+              <circle class="why__dot" cx="380" cy="42" r="4"/>
+            </svg>
+            <div class="why__badge glass"><span>Optimized trajectory</span><strong>↑ Consistent growth</strong></div>
+          </figure>
+        </div>
+
+        <div class="cta-band glass reveal">
+          <p>Ready to make your content perform the way it should?</p>
+          <a href="#contact" class="btn btn--primary">Let's Optimize Your Content <span class="btn__arrow">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 7 · PRICING ═════════ -->
+    <section class="section" id="pricing">
+      <div class="container">
+        <div class="section__head">
+          <p class="section__eyebrow reveal">Pricing</p>
+          <h2 class="section__title reveal">Simple plans. Better performance.</h2>
+          <p class="section__sub reveal">Pricing is shared for information and discussion only — every project starts with a conversation, not a checkout.</p>
+        </div>
+
+        <div class="grid grid--3 pricing__grid">
+          <article class="card card--pricing glass reveal">
+            <header class="pricing__head">
+              <h3>Starter</h3>
+              <p class="pricing__desc">For creators beginning to take performance seriously.</p>
+              <p class="pricing__price">৳4,500 <span>/ project</span></p>
+            </header>
+            <ul class="card__list">
+              <li>Retention-focused editing (1 video)</li>
+              <li>1 optimized thumbnail</li>
+              <li>Title &amp; packaging suggestions</li>
+              <li>Basic performance notes</li>
+            </ul>
+            <div class="pricing__meta">
+              <div><span>Delivery</span><strong>3–4 days</strong></div>
+              <div><span>Revisions</span><strong>2 rounds</strong></div>
+            </div>
+            <a href="#contact" class="btn btn--ghost btn--block" data-plan="Starter">Discuss This Plan</a>
+          </article>
+
+          <article class="card card--pricing card--featured glass reveal">
+            <span class="pricing__tag">Most discussed</span>
+            <header class="pricing__head">
+              <h3>Growth</h3>
+              <p class="pricing__desc">For channels ready to build consistent momentum.</p>
+              <p class="pricing__price">৳12,000 <span>/ month</span></p>
+            </header>
+            <ul class="card__list">
+              <li>Retention optimization (4 videos)</li>
+              <li>4 CTR-optimized thumbnails</li>
+              <li>Title &amp; packaging strategy</li>
+              <li>Monthly performance review</li>
+              <li>Publishing cadence plan</li>
+            </ul>
+            <div class="pricing__meta">
+              <div><span>Delivery</span><strong>Weekly</strong></div>
+              <div><span>Revisions</span><strong>3 rounds / video</strong></div>
+            </div>
+            <a href="#contact" class="btn btn--primary btn--block" data-plan="Growth">Discuss This Plan</a>
+          </article>
+
+          <article class="card card--pricing glass reveal">
+            <header class="pricing__head">
+              <h3>Pro</h3>
+              <p class="pricing__desc">For brands and serious creators scaling with strategy.</p>
+              <p class="pricing__price">৳25,000 <span>/ month</span></p>
+            </header>
+            <ul class="card__list">
+              <li>Full content optimization (8 videos)</li>
+              <li>8 CTR-optimized thumbnails</li>
+              <li>Complete content strategy</li>
+              <li>Bi-weekly performance reviews</li>
+              <li>Priority communication</li>
+            </ul>
+            <div class="pricing__meta">
+              <div><span>Delivery</span><strong>Twice weekly</strong></div>
+              <div><span>Revisions</span><strong>Unlimited*</strong></div>
+            </div>
+            <a href="#contact" class="btn btn--ghost btn--block" data-plan="Pro">Discuss This Plan</a>
+          </article>
+        </div>
+        <p class="pricing__note reveal">*Within the agreed project scope. All prices in Bangladeshi Taka (BDT). Final quotes are confirmed during consultation — no online payment is collected on this website.</p>
+      </div>
+    </section>
+
+    <!-- ═════════ 8 · FAQ ═════════ -->
+    <section class="section" id="faq">
+      <div class="container container--narrow">
+        <div class="section__head">
+          <p class="section__eyebrow reveal">FAQ</p>
+          <h2 class="section__title reveal">Frequently asked questions</h2>
+        </div>
+
+        <div class="faq reveal-stagger">
+          <details class="faq__item glass">
+            <summary>Do you guarantee results?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>No — and you should be cautious of anyone who does. We guarantee a strategic, transparent process built on proven optimization principles. Performance depends on many factors, but our work consistently improves the variables you can control: retention structure, click-through packaging, and content strategy.</p></div>
+          </details>
+          <details class="faq__item glass">
+            <summary>What platforms do you work with?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>We optimize content for YouTube, Facebook, Instagram, TikTok and similar platforms. During consultation we identify which platform strategy fits your goals best.</p></div>
+          </details>
+          <details class="faq__item glass">
+            <summary>How many revisions do plans include?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>Each plan states its revision policy clearly: Starter includes 2 rounds, Growth includes 3 rounds per video, and Pro includes unlimited revisions within the agreed scope. Revisions are part of the process, not an extra.</p></div>
+          </details>
+          <details class="faq__item glass">
+            <summary>How do payments work?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>There is no online checkout on this website. Pricing here is for information and discussion. After consultation, we agree on scope, timeline and payment terms directly — clearly and in writing.</p></div>
+          </details>
+          <details class="faq__item glass">
+            <summary>How quickly can we start?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>Send an inquiry through the contact form. We typically respond within one business day, schedule a consultation, and can usually begin work shortly after the strategy is agreed.</p></div>
+          </details>
+          <details class="faq__item glass">
+            <summary>Is Upzon an agency?<span class="faq__icon" aria-hidden="true"></span></summary>
+            <div class="faq__body"><p>No. Upzon is a content optimization company. We don't sell generic creative packages — we improve the performance of your content through analysis-driven, strategic optimization.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═════════ 9 · CONTACT ═════════ -->
+    <section class="section section--last" id="contact">
+      <div class="container">
+        <div class="contact">
+          <div class="contact__intro">
+            <p class="section__eyebrow reveal">Contact</p>
+            <h2 class="section__title reveal">Let's work together</h2>
+            <p class="section__sub reveal">Tell us about your content and your main challenge. We'll review it and reply with clear next steps — no pressure, no obligation.</p>
+            <ul class="contact__points reveal-stagger">
+              <li><span class="dot dot--blue"></span> Response within one business day</li>
+              <li><span class="dot dot--purple"></span> Free initial consultation</li>
+              <li><span class="dot dot--cyan"></span> Clear scope before any commitment</li>
+            </ul>
+          </div>
+
+          <form class="contact__form glass reveal" id="inquiryForm" novalidate>
+            <div class="form__row">
+              <div class="form__field">
+                <label for="f-name">Name</label>
+                <input type="text" id="f-name" name="name" placeholder="Your full name" required autocomplete="name" />
+              </div>
+              <div class="form__field">
+                <label for="f-email">Email</label>
+                <input type="email" id="f-email" name="email" placeholder="you@example.com" required autocomplete="email" />
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__field">
+                <label for="f-whatsapp">WhatsApp</label>
+                <input type="tel" id="f-whatsapp" name="whatsapp" placeholder="+880 1XXX-XXXXXX" autocomplete="tel" />
+              </div>
+              <div class="form__field">
+                <label for="f-channel">Channel Link</label>
+                <input type="url" id="f-channel" name="channel" placeholder="https://…" />
+              </div>
+            </div>
+            <div class="form__row">
+              <div class="form__field">
+                <label for="f-platform">Platform</label>
+                <select id="f-platform" name="platform" required>
+                  <option value="" disabled selected>Select platform</option>
+                  <option>YouTube</option>
+                  <option>Facebook</option>
+                  <option>Instagram</option>
+                  <option>TikTok</option>
+                  <option>Multiple platforms</option>
+                  <option>Other</option>
+                </select>
+              </div>
+              <div class="form__field">
+                <label for="f-plan">Interested Plan</label>
+                <select id="f-plan" name="plan">
+                  <option value="" disabled selected>Select a plan (optional)</option>
+                  <option>Starter — ৳4,500</option>
+                  <option>Growth — ৳12,000</option>
+                  <option>Pro — ৳25,000</option>
+                  <option>Not sure yet</option>
+                </select>
+              </div>
+            </div>
+            <div class="form__field">
+              <label for="f-problem">Main Problem</label>
+              <select id="f-problem" name="problem" required>
+                <option value="" disabled selected>What's your biggest challenge?</option>
+                <option>Low viewer retention</option>
+                <option>Low click-through rate</option>
+                <option>Inconsistent growth</option>
+                <option>No clear content direction</option>
+                <option>Something else</option>
+              </select>
+            </div>
+            <div class="form__field">
+              <label for="f-desc">Project Description</label>
+              <textarea id="f-desc" name="description" rows="4" placeholder="Tell us about your content, goals, and what you'd like to improve…" required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--block">Send Inquiry</button>
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ═════════ FOOTER ═════════ -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#hero" class="nav__logo"><span class="nav__logo-mark">UP</span>ZON</a>
+        <p>Content Optimization Company.<br />Grow Faster. Look Better.</p>
+      </div>
+      <nav class="footer__links" aria-label="Footer">
+        <a href="#problems">Problems</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#framework">Framework</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="footer__note">
+        <p>© <span id="year"></span> Upzon. All rights reserved.</p>
+        <p class="footer__social">
+          <!-- Social placeholders — replace href with real profiles -->
+          <a href="#" aria-label="YouTube (placeholder)">YT</a>
+          <a href="#" aria-label="Facebook (placeholder)">FB</a>
+          <a href="#" aria-label="Instagram (placeholder)">IG</a>
+          <a href="#" aria-label="X (placeholder)">X</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
